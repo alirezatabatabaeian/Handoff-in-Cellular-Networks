@@ -34,8 +34,8 @@ Handoff_Matrix_by_algorithms = zeros(4,Repeats); % connected BS
 PDF_location = zeros(4,Ns); % PDF location matrix
 
 for j = 1 : Repeats
-    %% RSS Initializtion
-     % calculate rss
+%% RSS Initializtion
+    % calculate rss
     RSS01 = Pt - Po - (10 * grad1 * log10(d1) + 10 * grad2 * log10(d1/g));
     RSS02 = Pt - Po - (10 * grad1 * log10(d2) + 10 * grad2 * log10(d2/g));
     RSS_corner = Pt - Po - (10 * grad1 * log10(R) + 10 * grad2 * log10(R/g));
