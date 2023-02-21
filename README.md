@@ -1,5 +1,3 @@
-# Untitled
-
 # ***Handoff in Cellular Networks***
 
 ## ***(Alireza Tabatabaeian)***
